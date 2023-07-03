@@ -8,16 +8,16 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
-@WebServlet(name="logout",urlPatterns = "/user-logout")
-public class LogoutServlet extends HttpServlet {
+
+@WebServlet(name="logout-admin",urlPatterns = "/logout-admin")
+public class AdminLogoutServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         HttpSession session = req.getSession();
-        session.removeAttribute("user");
+        session.removeAttribute("admin");
         resp.sendRedirect("login-admin.jsp");
-
 
     }
 }

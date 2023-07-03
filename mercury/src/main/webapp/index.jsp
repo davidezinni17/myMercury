@@ -9,7 +9,8 @@
 <a href="register.jsp">Registrati per ricevere info sugli eventi</a> <br>
 <a href="register-azienda.jsp">Registrati se sei un azienda</a> <br>
 <a href="login.jsp">Login user</a> <br>
-<a href="login-azienda.jsp">Login azienda</a> <br>
+<a href="login-azienda.jsp">Login azienda</a> <br> <br> <br> <br>
+<a href="register-admin.jsp">Vuoi diventare un nuovo admin?</a>
 <br>
 <br>
 <br>
